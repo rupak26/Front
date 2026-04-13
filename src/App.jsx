@@ -9,7 +9,7 @@ import "./App.css";
 
 const API_BASE = import.meta.env.VITE_API_URL || "";
 
-
+console.log("API URL:", import.meta.env.VITE_API_URL);
 
 export default function App() {
   const [posts, setPosts]             = useState([]);
@@ -20,7 +20,7 @@ export default function App() {
   const [showCreate, setShowCreate]   = useState(false);  // ✅ Create modal
   const [editPost, setEditPost]       = useState(null);   // ✅ Edit modal
 
-  console.log("API URL:", import.meta.env.VITE_API_URL);
+  
   // Fetch all posts
   useEffect(() => {
     fetch(`${API_BASE}/api/news/`)

@@ -1,8 +1,9 @@
 {
+  "version": 2,
   "rewrites": [
     {
-      "source": "/proxy/api/:path*",
-      "destination": "http://98.88.79.182/api/:path*"
+      "source": "/proxy/:path*",
+      "destination": "http://98.88.79.182/:path*"
     }
   ]
 }
