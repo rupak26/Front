@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/api/news/(.*)",
+      "source": "/api/news",
       "destination": "http://98.88.79.182"
     }
   ]
