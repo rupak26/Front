@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "",
+      "destination": "http://98.88.79.182"
+    }
+  ]
+}
